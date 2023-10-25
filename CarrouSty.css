@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .container > button {
+    height: 50px;
+    width: 65px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+
+  .container > button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel {
+    padding: 1rem;
+  }
+  .carousel img {
+    width: 600px;
+    height: 400px;
+    display: none;
+  }
+  .carousel img.active {
+    display: block;
+  }
+
